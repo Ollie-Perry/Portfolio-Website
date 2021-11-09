@@ -5,3 +5,12 @@ body{
 #canvas{
     display: block;
 }
+
+#title-card{
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    width: 40%;
+    box-shadow: 5px, 10px;
+      
+}
