@@ -1,15 +1,43 @@
 body{
-    background-image: url(gif-main-720.gif);
+    background-color: #404040;
 }
 
-#canvas{
-    display: block;
+nav{
+    background-color: #8c8c8c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8vw;
 }
 
-#title-card{
-    display: block;
-    margin: auto;
-    margin-top: 10%;
-    width: 40%;
-    box-shadow: 0px 0px 18px;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
+
+li{
+    display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: #ebebeb;
+    text-align: center;
+    padding: 1vh 1vw ;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8c8c8c;
+    background-color: #ebebeb;
+}
+  
+a:active {
+    color: #1e1e1e;
+}
+
