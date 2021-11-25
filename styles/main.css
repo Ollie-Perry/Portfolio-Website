@@ -1,5 +1,10 @@
+canvas {
+    position: relative;
+    z-index: -3 !important;
+  }
+
 body{
-    background-image: url(gif-main-720.gif);
+    /* background-image: url(gif-main-720.gif); */
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100%;
