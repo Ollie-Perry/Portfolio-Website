@@ -14,7 +14,8 @@ function windowResized() {
 function setup() {
     canvas = createCanvas(windowWidth,windowHeight);
     canvas.position(0,0);
-    canvas.style('z-index', '-1')
+    canvas.style('z-index', '-1');
+    canvas.parent("intro-card");
     x = width/2;
     y = height/2;
     size = 10;
