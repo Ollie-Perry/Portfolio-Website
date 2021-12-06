@@ -107,7 +107,6 @@ a:active {
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
-    padding-right: 25%;
     grid-area: gd-card;
 }
 
@@ -172,7 +171,6 @@ a:active {
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
-    padding-right: 25%;
     grid-area: tp-card;
 }
 
@@ -277,7 +275,6 @@ a:active {
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
-    padding-right: 25%;
     grid-area: cd-card;
 }
 
@@ -335,7 +332,6 @@ a:active {
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
-    padding-right: 25%;
     grid-area: ux-card;
 }
 
@@ -375,7 +371,6 @@ a:active {
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
-    padding-right: 25%;
     grid-area: rf-card;
 }
 
@@ -423,5 +418,9 @@ footer li{
 
 .footer-right{
     grid-area: footer-right;
-    /*text-align: right;*/
+    text-align: right;
+}
+
+#bump{
+    padding-bottom: 1%;
 }
