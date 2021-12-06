@@ -54,20 +54,20 @@ nav{
     grid-area: header;
 }
 
-ul{
+nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li{
+nav li{
     display: inline;
     float: left;
     border-right: 1px solid #bbb;
 }
 
-li a {
+nav li a {
     display: block;
     color: #ebebeb;
     text-align: center;
@@ -388,4 +388,40 @@ a:active {
     padding-left: 10%;
     padding-right: 10%;
     grid-area: rf-desc;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(30, 30, 30);
+    color: #ebebeb;
+    font-size: 0.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'footer-left footer-right'
+}
+
+footer ul{
+    list-style-type: none;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer li{
+    padding: 0.1%;
+}
+
+.footer-left{
+    grid-area: footer-left;
+}
+
+.footer-right{
+    grid-area: footer-right;
+    /*text-align: right;*/
 }
