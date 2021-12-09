@@ -16,7 +16,7 @@ header{
 
 .grid-main{
     display: grid;
-    grid-template-columns: 10% 35% 10% 35% 10%;
+    grid-template-columns: 6% auto 6% auto 6%;
     grid-template-rows: auto;
     grid-template-areas: 
     '. intro-card intro-card intro-card .'
@@ -24,6 +24,7 @@ header{
     '. gd-desc1 . gd-img1 .'
     '. gd-img2 . gd-desc2 .'
     '. gd-desc3 . gd-img3 .'
+    '. gd-img4 . gd-desc4 .'
     'tp-card tp-card tp-card tp-card tp-card'
     '. tp-desc1 . tp-img1 .'
     '. tp-img2 . tp-desc2 .'
@@ -38,6 +39,7 @@ header{
     '. cd-img2 . cd-desc2 .'
     'ux-card ux-card ux-card ux-card ux-card'
     '. ux-desc1 . ux-desc2 .'
+    '. ux-img1 . . .'
     'rf-card rf-card rf-card rf-card rf-card'
     '. rf-desc rf-desc rf-desc .';
 }
@@ -126,7 +128,7 @@ a:active {
 
 .gd-img img{
     vertical-align: middle;
-    width: 100%;
+    width: 80%;
 }
 
 #gd-desc1{
@@ -151,6 +153,14 @@ a:active {
 
 #gd-img3{
     grid-area: gd-img3;
+}
+
+#gd-desc4{
+    grid-area: gd-desc4;
+}
+
+#gd-img4{
+    grid-area: gd-img4;
 }
 
 .gd-desc-title{
@@ -357,6 +367,20 @@ a:active {
 
 #ux-desc2{
     grid-area: ux-desc2;
+}
+
+.ux-img{
+    margin: 5%;
+}
+
+.ux-img img{
+    vertical-align: middle;
+    width: 100%;
+    padding-top: 20%;
+}
+
+#ux-img1{
+    grid-area: ux-img1;
 }
 
 /* reflection */
